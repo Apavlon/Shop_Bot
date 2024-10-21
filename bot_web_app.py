@@ -11,7 +11,7 @@ async def start(message: types.Message):
 
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=3)
     markup.add(types.KeyboardButton(
-               "Открыть веб страницу", web_app=WebAppInfo(url="/home/aartemenko/Bot/Bot Web App/index.html")))
+               "Открыть веб страницу", web_app=WebAppInfo(url="https://apavlon.github.io/Personal-Site/")))
 
     await message.answer("Привет, друг!", reply_markup=markup)
 
