@@ -4,13 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div id="main">
-        <h1>Онлайн магазин №3</h1>
+        <h1>Онлайн магазин №1</h1>
         <img src="https://cdn-icons-png.flaticon.com/512/3595/3595455.png" alt="">
         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel odio nec nisi sagittis mattis.</p>
         <button id="buy">Купить</button>
     </div>
+    <form id="form">
+        <input type="text" placeholder="Имя" id="user_name">
+        <input type="text" placeholder="Email" id="user_email">
+        <input type="text" placeholder="Телефон" id="user_phone">
+        <button id="order">Оформить</button>
+    </form>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script>
+        let tg = window.Telegram.WebApp;
+    </script>
 </body>
 </html>
