@@ -14,5 +14,3 @@ async def start(message: types.Message):
                web_app=WebAppInfo(url="https://apavlon.github.io/Shop/")))
 
     await message.answer("Привет, друг!", reply_markup=markup)
-
-executor.start_polling(dp)
